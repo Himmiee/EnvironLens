@@ -1,0 +1,101 @@
+/* .nav-lg {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 48px 0px 48px;
+}
+.info-wrap-1 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 8px;
+}
+
+.sub-info-wrap-1 {
+  display: flex;
+  justify-content: center;
+  padding: 8px 20px 8px 20px;
+  background-color: white;
+  gap: 8px;
+  border-radius: 9999px;
+  align-items: center;
+}
+
+.info-wrap-2 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 8px;
+  z-index: 0;
+  border-radius: 9999px;
+}
+
+.sub-info-wrap-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px 8px 24px;
+  background-color: white;
+  z-index: 10;
+  gap: 8px;
+  border-radius: 9999px;
+}
+.sub-info-wrap-2b {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px 8px 12px;
+  background-color: white;
+  z-index: 10;
+  gap: 8px;
+  border-radius: 9999px;
+}
+.info-wrap-3 {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  gap: 12px;
+}
+.sub-info-wrap-3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+  background-color: black;
+  gap: 8px;
+  border-radius: 9999px;
+  color: white;
+}
+
+.sub-info-wrap-3-about {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+  gap: 4px;
+  border-radius: 9999px;
+  color: black;
+  background: white;
+} */
+
+.love {
+  background-image: url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vw; /* Add this to ensure the background covers the full width */
+  opacity: 0.95;
+  position: relative;
+  margin: 0; /* Ensure there is no margin around the element */
+  padding: 0; /* Remove any default padding */
+  overflow: hidden; /* Prevent any overflow that might cause scrolling */
+}
+
+
+/* @media (max-width: 768px) {
+  .love {
+    filter: blur(5px); /* Adjust the blur amount as needed */
+  /* }
+}  */

@@ -1,11 +1,11 @@
 import Button from "@/components/Button";
-import { NavHeader } from "@/components/NavHeader";
+import "./components.css";
+import { HeaderComponent } from "@/components/Header.tsx/page";
 
 export default function Main() {
   return (
-    <main>
-      <NavHeader />
-      {/* <Button className="bg-teal-700 text-white" title="ayo" /> */}
+    <main className="love">
+      <HeaderComponent />
     </main>
   );
 }
