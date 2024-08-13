@@ -4,10 +4,12 @@ import { WriteUp } from "../Social";
 
 export const HeaderComponent = () => {
   return (
-    <main>
-      <NavHeader />
-      <SocialComponent />
-      <WriteUp />
+    <main className="love">
+      <>
+        <NavHeader />
+        <SocialComponent />
+        <WriteUp />
+      </>
     </main>
   );
 };
