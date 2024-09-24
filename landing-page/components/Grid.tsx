@@ -8,8 +8,8 @@ import { FaLink } from "react-icons/fa6";
 
 export const GridComponent = () => {
   return (
-    <aside className="pt-24 ">
-      <div className="sm:flex  justify-between sm:gap-6 lg:gap-12 h-64 sm:h-96 lg:pt-16">
+    <aside className="pt-24 lg:h-full min-h-64 ">
+      <div className="sm:flex  justify-between sm:gap-6 lg:gap-12 sm:h-96 lg:pt-16">
         <div className="two mb-6 sm:my-0  flex flex-col items-center rounded-3xl h-full  sm:w-[50%] relative">
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>{" "}
           <div className="relative z-10 w-48 m-2 p-1 flex justify-center border-white border-[1px] rounded-full px-2 text-white text-[16px]">
