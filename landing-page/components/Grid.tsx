@@ -10,7 +10,7 @@ export const GridComponent = () => {
   return (
     <aside className="pt-24 lg:h-full min-h-64 ">
       <div className="sm:flex  justify-between sm:gap-6 lg:gap-12 sm:h-96 lg:pt-16">
-        <div className="two mb-6 sm:my-0  flex flex-col items-center rounded-3xl h-full  sm:w-[50%] relative">
+        <div className="two mb-6 sm:my-0  flex flex-col items-center rounded-3xl h-64 sm:h-full sm:w-[50%] relative">
           <div className="absolute inset-0 bg-black bg-opacity-30 rounded-3xl"></div>{" "}
           <div className="relative z-10 w-48 m-2 p-1 flex justify-center border-white border-[1px] rounded-full px-2 text-white text-[16px]">
             21:h 30:m 56:s
@@ -21,7 +21,7 @@ export const GridComponent = () => {
             </p>
           </div>
         </div>
-        <div className="one mb-6 sm:my-0 sm:hidden lg:flex px-2 gap-4 rounded-3xl sm:w-[70%] flex flex-col  justify-center h-full sm:h-1/2 sm:mt-[170px] relative">
+        <div className="one mb-6 sm:my-0 sm:hidden lg:flex px-2 gap-4 rounded-3xl sm:w-[70%] flex flex-col  justify-center h-64 sm:h-1/2 sm:mt-[170px] relative">
           <div className="absolute inset-0 bg-black bg-opacity-50 rounded-3xl"></div>{" "}
           <div className="relative mt-14 w-1/2 items-center gap-2 flex z-10 backdrop-blur-sm py-3 px-1 text-white">
             More info
@@ -32,7 +32,7 @@ export const GridComponent = () => {
             </div>
           </div>
         </div>
-        <div className="five mb-6 sm:my-0  rounded-3xl sm:w-[60%] h-full sm:h-2/3 relative">
+        <div className="five mb-6 sm:my-0  rounded-3xl sm:w-[60%] h-64 sm:h-2/3 relative">
           <div className="absolute inset-0 bg-black bg-opacity-50 rounded-3xl"></div>{" "}
           <div className="flex gap-2 absolute right-2 bottom-2">
             {" "}
@@ -44,7 +44,7 @@ export const GridComponent = () => {
             </div>
           </div>
         </div>
-        <div className="four mb-6 sm:my-0  rounded-3xl sm:w-[70%] h-full sm:h-1/2 sm:mt-[120px] relative">
+        <div className="four mb-6 sm:my-0  rounded-3xl sm:w-[70%] h-64 sm:h-1/2 sm:mt-[120px] relative">
           <div className="absolute inset-0 bg-black bg-opacity-50 rounded-3xl"></div>{" "}
           <div className="relative z-10">
             <div className="text-white flex justify-center p-2">
@@ -59,7 +59,7 @@ export const GridComponent = () => {
             </div>
           </div>
         </div>
-        <div className="three mb-6 sm:my-0  rounded-3xl p-3 sm:w-[60%] lg:w-[50%] h-full relative">
+        <div className="three mb-6 sm:my-0  rounded-3xl p-3 sm:w-[60%] lg:w-[50%] h-64 sm:h-full relative">
           <div className="absolute inset-0 bg-black bg-opacity-10 rounded-3xl"></div>{" "}
           <div className="bg-white w-8 h-8  items-center rounded-full z-10 relative flex justify-center">
             <SiInternetcomputer size={20} />

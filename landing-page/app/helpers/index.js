@@ -67,7 +67,7 @@ export const CardComponent = ({ icon, text, description }) => {
       <div className="w-full flex flex-col ">
         {" "}
         <div className="flex items-center gap-2 justify-center">
-          <h3 className="lg:text-[45px] sm:text-3xl text-2xl mt-12 mb-4 font-bold ">{text}</h3>
+          <h3 className="lg:text-[43px] sm:text-3xl text-2xl mt-12 mb-4 font-bold  ">{text}</h3>
         </div>
         <p className="text-gray-600 mt-2 text-wrap text-center text-lg justify-center flex mx-auto">
           {description}

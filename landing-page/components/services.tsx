@@ -10,7 +10,7 @@ export const ServiceComponent = () => {
         <p className="font-bold text-white">
           Services <span className=" text-[10px] ">[01]</span>
         </p>
-        <div className="bg-white flex mx-auto h-96 w-96 opacity-90 rounded-full mt-32 relative overflow-hidden">
+        <div className="bg-white flex mx-auto w-80 h-80 sm:h-96 sm:w-96 opacity-90 rounded-full mt-32 relative overflow-hidden">
           <Image
             src="/trees.jpg"
             alt="Description of image"
