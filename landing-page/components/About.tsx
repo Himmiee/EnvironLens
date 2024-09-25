@@ -5,7 +5,7 @@ import { GridComponent } from "./Grid";
 
 export const AboutComponent = () => {
   return (
-    <div className="px-6 py-4 pb-20 relative h-full pt-32 bg-[#f1f1f1]">
+    <div className="px-6 py-4 pb-20 sm:pb-48 relative h-full pt-32  bg-[#f1f1f1]">
       <div className="absolute top-56 right-6">
         <SocialComponent />
       </div>

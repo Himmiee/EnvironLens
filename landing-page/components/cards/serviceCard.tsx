@@ -1,5 +1,5 @@
 "use client";
-import { CardComponent, statusTab } from "../../app/helpers/index";
+import { statusTab,CardComponent } from "@/app/helpers";
 import { useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";

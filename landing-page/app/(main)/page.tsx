@@ -3,6 +3,8 @@ import "./components.css";
 import { HeaderComponent } from "@/components/Header.tsx/page";
 import { AboutComponent } from "@/components/About";
 import { ServiceComponentLayout } from "./serviceLayout";
+import { EnvironComponent } from "@/components/environ";
+import { FooterComponent } from "@/components/footer/footer";
 
 export default function Main() {
   return (
@@ -10,6 +12,8 @@ export default function Main() {
       <HeaderComponent />
       <AboutComponent />
       <ServiceComponentLayout />
+      <EnvironComponent />
+      <FooterComponent />
     </main>
   );
 }
