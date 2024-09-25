@@ -37,7 +37,7 @@ export const WriteUp = () => {
           Precisely for you.
         </h3>
         <div className="flex items-center gap-4 backdrop-blur-sm  p-2 rounded-full">
-          <p>Let's start! </p>
+          <p>Let&#39;s start! </p>
           <div className="border-[1px] cursor-pointer border-white text-teal-800 p-2 bg-white rounded-full">
             <IoIosArrowRoundForward />
           </div>
