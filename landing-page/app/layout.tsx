@@ -2,8 +2,10 @@ import { Metadata } from "next";
 import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 
-
-const nunitoSans = Nunito_Sans({ subsets: ["latin"] });
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
   title: "EnvironLens",
